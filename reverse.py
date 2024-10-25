@@ -1,10 +1,13 @@
 def reverse_string(s):
     reversed_str = ""
     for char in s:
-        reversed_str = reversed_str + char 
-    return reversed_string 
+        //changed logic of reversing string
+        reversed_str = char+reversed_str 
+        // returing undeclared variable 
+    return reversed_str
 
 # Test the function
 print(reverse_string("Hacktoberfest"))  
-print(reverse_string(12345))         
+// argument type incorrect changed
+print(reverse_string("12345"))         
 print(reverse_string(""))             
