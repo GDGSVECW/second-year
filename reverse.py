@@ -1,8 +1,8 @@
 def reverse_string(s):
     reversed_str = ""
-    for char in s:
-        reversed_str = reversed_str + char 
-    return reversed_string 
+    for char in str(s):
+        reversed_str = char + reversed_str 
+    return reversed_str 
 
 # Test the function
 print(reverse_string("Hacktoberfest"))  
